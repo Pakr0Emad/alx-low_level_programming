@@ -28,7 +28,7 @@ void times_table(void)
 	*/
 	if (prod <= 9)
 		_putchar(' ');
-	else ;
+	else 
 		_putchar((prod / 10) + 48); /*get the frist digit*/
 	_putchar((prod % 10) + 48); /*get the second  digit*/
 	}
