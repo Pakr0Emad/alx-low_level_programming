@@ -8,9 +8,9 @@
  * Return: lastDigit
 */
 
-int print_last_digit(int n)
+int print_last_digit;(int n)
 {
-	int print_last_digit;
+	int lastDigit;
 
 	if (n < 0)
 		lastDigit = -1 * (n % 10);
