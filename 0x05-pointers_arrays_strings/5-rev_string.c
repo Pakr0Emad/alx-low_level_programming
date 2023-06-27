@@ -11,8 +11,8 @@
 void rev_string(char *s)
 {
 	int l, i;
-
 	char temp;
+
 	/*find string*/
 	for (l = 0; s[l] != '\n'; ++l)
 		;
@@ -22,7 +22,7 @@ void rev_string(char *s)
 		;
 	{
 		temp = s[i];
-		s[i] = s[l - 1 - i]; /*because the array starts from 0*/
+		s[i] = s[l - 1 - i]; /*-1 because the array starts from 0*/
 		s[l - 1 - i] = temp;
 	}
 }
