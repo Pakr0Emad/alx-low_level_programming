@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+void rev_string(char *);
+
 /**
  * rev_string - check  parameter the code for Holberton School students.
  *
@@ -10,6 +12,7 @@
  * Return: Always 0.
  */
 
+char s[11] = "Holberton!";
 void rev_string(char *s)
 {
 	int l, i;
