@@ -10,7 +10,7 @@ void reset_to_98(int *);
  * Return: Always 0.
  */
 
-void _puts(shar *str)
+void _puts(char *str)
 {
 	while (*str != '\0')
 	{
