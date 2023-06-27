@@ -1,9 +1,11 @@
 #include <stdio.h>
 
 /**
- * rev_string - check the code for Holberton School students.
+ * rev_string - check  parameter the code for Holberton School students.
  *
- * @s: string
+ * @s: string parameter input
+ *
+ * holberton!: parameter
  *
  * Return: Always 0.
  */
