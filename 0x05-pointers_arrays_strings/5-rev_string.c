@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 
 /**
@@ -12,6 +12,7 @@
  */
 
 void rev_string(char *s)
+char s[1] = "Holberton!"
 {
 	int l, i;
 	char temp;
