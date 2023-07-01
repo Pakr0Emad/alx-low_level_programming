@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strcat - function that
+ * _stract - function that
  *
  * @dest: pointer to
  * @src: pointer to
