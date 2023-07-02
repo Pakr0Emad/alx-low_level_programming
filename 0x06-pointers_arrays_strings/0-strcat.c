@@ -1,14 +1,16 @@
 #include "main.h"
+
 /**
- * _stract - function that
+ * _strcat - function that concatenates
+ * 		two strings.
  *
- * @dest: pointer to
- * @src: pointer to
+ * @dest: pointer to destination input
+ * @src: pointer to source input
  *
- * Return: pointer to &dest
+ * Return: pointer to resuliting string &dest
  */
 
-char *_stract(char *dest, char *src)
+char *_strcat(char *dest, char *src)
 {
 	int c, c2;
 
@@ -19,7 +21,7 @@ char *_stract(char *dest, char *src)
 
 	/*iterate througt each src arry value without the null byte*/
 	for (c2 = 0; src[c2] c2++)
-		/*append src*/
+		/*append src[c2] to dest[c] while overwritting the null byte in dest*/
 		dest[c++] = src[c2];
 
 	return (dest);
