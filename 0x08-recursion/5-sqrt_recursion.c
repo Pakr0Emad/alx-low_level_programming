@@ -2,6 +2,7 @@
 
 /**
  * _sqrt_recursion - prints string in reverse
+ * square : fuctiom
  * @n: pointer to string
  * @val: square root
  * *Return: int
@@ -15,6 +16,7 @@ return (square(n, 1));
 
 /**
  * _sqrt_recursion - prints string in reverse
+ * square : fuctiom
  * @n: pointer to string
  * @val: square root
  * *Return: int
